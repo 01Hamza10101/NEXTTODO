@@ -10,6 +10,14 @@
   }
 }
 
+/* @font-face {
+  font-family: 'FontWoof2';
+  src: url('/fonts/MyCustomFont.woff2') format('woff2'),
+       url('/fonts/MyCustomFont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+} */
+
 html,
 body {
   max-width: 100vw;
@@ -39,4 +47,26 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+
+@media (max-width: 768px) {
+  /* .Toastify__toast-container{
+    position: absolute;
+    width: 60% !important;
+    height: 30px;
+    top: 5%;
+    left: 5% !important;    
+    right: 5% !important;
+  } */
+  
+  /* .Toastify__toast {
+    font-size: 14px;       
+    padding: 10px;         
+  }
+
+  .Toastify__close-button {
+    width: 20px;          
+    height: 20px;
+  } */
 }

@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 18px;
+}
+.header p{
+    margin: auto 0;
+}
+.header .Btn{
+    background-color: black;
+    border: none;
+    padding: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
